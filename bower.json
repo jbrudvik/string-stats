@@ -1,0 +1,9 @@
+{
+  "name": "string-stats",
+  "main": "string-stats.js",
+  "dependencies": {
+    "underscore": "1.*"
+  },
+  "keywords": ["util", "string", "text", "word", "character", "count", "stats", "statistics"],
+  "ignore": [".jshintrc", ".gitignore"]
+}

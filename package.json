@@ -1,6 +1,6 @@
 {
   "name": "string-stats",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Jeremy Brudvik <jeremy@brudvik.me>",
   "description": "Utilities for calculating statistics about strings",
   "dependencies": {

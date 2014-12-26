@@ -2,4 +2,4 @@ language: bash
 before_script:
   - npm install -g dox
 script:
-  - diff <(./generate-docs) README.md
+  - diff -w <(./generate-docs) README.md

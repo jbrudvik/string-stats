@@ -1,5 +1,5 @@
 
-/* global _:false */
+/* global exports:true, module:false, require:false */
 /* jshint bitwise:false */
 
 (function(root, undefined) {
@@ -11,9 +11,10 @@
 
   // Export the stringStats object in both Node and browser environments
   // Explicitly require dependencies in Node
+  var _ = root._;
   if (typeof exports !== 'undefined') { // Node
     exports = module.exports = stringStats;
-    var _ = require('underscore');
+    _ = require('underscore');
   } else { // Browser
     root.stringStats = stringStats;
   }

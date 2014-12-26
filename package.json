@@ -1,0 +1,31 @@
+{
+  "name": "string-stats",
+  "version": "0.0.1",
+  "author": "Jeremy Brudvik <jeremy@brudvik.me>",
+  "description": "Utilities for calculating statistics about strings",
+  "engines": {
+    "node" : ">= 0.10.0"
+  },
+  "main": "string-stats.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbrudvik/string-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbrudvik/string-stats/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/jbrudvik/string-stats/master/LICENSE"
+  }],
+  "keywords": [
+    "util",
+    "string",
+    "text",
+    "word",
+    "character",
+    "count",
+    "stats",
+    "statistics"
+  ]
+}

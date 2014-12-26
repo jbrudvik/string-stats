@@ -1,8 +1,11 @@
 {
   "name": "string-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jeremy Brudvik <jeremy@brudvik.me>",
   "description": "Utilities for calculating statistics about strings",
+  "dependencies": {
+    "underscore": "1.6.x"
+  },
   "engines": {
     "node" : ">= 0.10.0"
   },

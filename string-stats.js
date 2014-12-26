@@ -2,13 +2,21 @@
 /* global _:false */
 /* jshint bitwise:false */
 
-(function(window, undefined) {
+(function(root, undefined) {
 
   /**
    * Utilities for calculating statistics about strings
    */
   var stringStats = {};
-  window.stringStats = stringStats;
+
+  // Export the stringStats object in both Node and browser environments
+  // Explicitly require dependencies in Node
+  if (typeof exports !== 'undefined') { // Node
+    exports = module.exports = stringStats;
+    var _ = require('underscore');
+  } else { // Browser
+    root.stringStats = stringStats;
+  }
 
   /**
    * Regex matching at least one "alphanumeric" character.

@@ -1,2 +1,2 @@
-[![Build status](https://img.shields.io/travis/jbrudvik/sublime-sum.svg)](https://travis-ci.org/jbrudvik/sublime-sum)
+[![Build status](https://img.shields.io/travis/jbrudvik/string-stats.svg)](https://travis-ci.org/jbrudvik/string-stats)
 [![Bower version](http://img.shields.io/bower/v/string-stats.svg)](https://github.com/jbrudvik/string-stats)

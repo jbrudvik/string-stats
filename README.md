@@ -4,9 +4,9 @@
 
   - [stringStats](#stringstats)
   - [stringStats.containsAlphanumericCharacterRegex](#stringstatscontainsalphanumericcharacterregex)
-  - [stringStats.containsAlphanumericCharacter()](#stringstatscontainsalphanumericcharacter)
-  - [stringStats.wordCount()](#stringstatswordcount)
-  - [stringStats.characterCount()](#stringstatscharactercount)
+  - [stringStats.containsAlphanumericCharacter()](#stringstatscontainsalphanumericcharactersstring)
+  - [stringStats.wordCount()](#stringstatswordcountsstring)
+  - [stringStats.characterCount()](#stringstatscharactercountsstring)
 
 ## stringStats
 
@@ -18,17 +18,17 @@
   
   Includes extended Latin, Greek, Coptic, Cyrillic, Armenian, Hebrew, Syriac, Arabic.
 
-## stringStats.containsAlphanumericCharacter()
+## stringStats.containsAlphanumericCharacter(s:String)
 
   Return true if string parameter contains at least one "alphanumeric" character.
 
-## stringStats.wordCount()
+## stringStats.wordCount(s:String)
 
   Return the number of visible words in a string.
   
   Words contain at least one alphanumeric character.
 
-## stringStats.characterCount()
+## stringStats.characterCount(s:String)
 
   Return the number of visible characters in a string
 

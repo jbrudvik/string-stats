@@ -28,6 +28,8 @@
 
   /**
    * Return true if string parameter contains at least one "alphanumeric" character.
+   *
+   * @param {String} s
    */
   stringStats.containsAlphanumericCharacter = function (s) {
     return this.containsAlphanumericCharacterRegex.test(s);
@@ -37,6 +39,8 @@
    * Return the number of visible words in a string.
    *
    * Words contain at least one alphanumeric character.
+   *
+   * @param {String} s
    */
   stringStats.wordCount = function (s) {
     if (!s || !s.length) {
@@ -66,6 +70,8 @@
 
   /**
    * Return the number of visible characters in a string
+   *
+   * @param {String} s
    */
   stringStats.characterCount = function(s) {
     if (!s || !s.length) {

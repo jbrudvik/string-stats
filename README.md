@@ -34,6 +34,10 @@
 
 # Development
 
+## Test
+
+    $ npm test
+
 ## Generate documentation
 
     $ npm install -g dox

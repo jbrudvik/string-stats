@@ -1,7 +1,4 @@
 
-/* global exports:true, module:false, require:false */
-/* jshint bitwise:false */
-
 (function(root, undefined) {
 
   /**

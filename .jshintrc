@@ -1,0 +1,24 @@
+{
+  "indent": 2,
+  "trailing": true,
+  "quotmark": "single",
+  "unused": true,
+  "undef": true,
+  "eqeqeq": true,
+  "newcap": true,
+  "forin": true,
+  "nonew": true,
+  "curly": true,
+  "bitwise": false,
+  "camelcase": true,
+  "expr": true,
+  "curly": false,
+  "browser": true,
+  "globals": {
+    "module": false,
+    "require": false,
+    "describe": false,
+    "it": false,
+    "exports": true
+  }
+}

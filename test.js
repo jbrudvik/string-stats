@@ -1,6 +1,4 @@
 
-/* global describe:false, it:false */
-
 var expect = require('chai').expect;
 var stringStats = require('./string-stats');
 

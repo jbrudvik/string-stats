@@ -5,5 +5,5 @@
     "underscore": "1.*"
   },
   "keywords": ["util", "string", "text", "word", "character", "count", "stats", "statistics"],
-  "ignore": [".jshintrc", ".gitignore"]
+  "ignore": ["**/.*", "*.md", "generate-docs"]
 }
